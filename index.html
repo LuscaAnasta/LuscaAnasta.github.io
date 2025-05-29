@@ -1,79 +1,212 @@
 <!DOCTYPE html>
-<html>
-
-<body>
+<html lang="en">
 <head>
-<center>
-<h1>ACESSO DIGITAL - MENU</h1>
-</center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    
+    <title>Acesso Digital</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/PJfzwWcj/icon-acessodigital.png">
+    
+
+    <style>
+
+        
+        .comfortaa{
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        }
+
+
+        :root {
+            --roxoAcesso: #982deb;
+            --fundo: #f5f5f5;
+            
+            font-family: "Comfortaa", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            background-color: var(--fundo);
+        }
+/*Buttons*/
+        .container{
+            margin-top: 2%;
+            padding: 1%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        a .btn-img {
+                width: 12.5vw;
+                max-width: 250px;
+                min-width: 100px;
+                margin: 10px;
+                transition: transform 0.3s;
+            }
+
+        a .btn-img:hover {
+            transform: scale(1.1);
+        }
+/*Titulo*/
+        .header{
+            background-color: var(--roxoAcesso);
+            color: var(--fundo);
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0 20px 0 20px;
+            text-align: left;
+            justify-content: left;
+            gap: 10px;
+            border-bottom-right-radius: 30px;
+        }
+        .header h1{
+            padding: 0;
+            font-size: large;
+        }
+        
+
+        
+        #search{
+            width: 40%;
+            bottom: 30%;
+            right: 5%;
+            position: absolute;
+        }
+        
+
+        #searchbar[type=text]{
+            padding: 0 10px 0 10px;
+            outline-color: var(--fundo);
+            width: 100%;
+            border-radius: 5px;
+            border: 0;
+            height: auto;
+            background-color: var(--fundo);
+        }
+
+        #searchbar[type=text]:focus {
+            border: 0;
+            outline-style: solid;
+            outline-color: var(--roxoAcesso);
+        }
+/*Loading*/
+        .loader {
+            position: absolute;
+            top: 20%;
+            border: 8px solid #f3f3f3; /* Light grey */
+            border-top: 8px solid var(--roxoAcesso); /* Blue */
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
 </head>
-
-<style>
-body {
-  background-image: url('https://i.postimg.cc/8cQDbN9D/TEMA-Acesso-Digital.jpgs');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-	
-}
-</style>
-
-<div>
-<script async src="https://cse.google.com/cse.js?cx=121adc786d4b94667"></script>
-<div class="gcse-searchbox-only"></div>
-</div>
-
-
-<a href="https://bit.ly/adts_bilhete" target="_blank"><img src="https://i.postimg.cc/TYXMmXPT/bt-bilhete.png" hspace="50"  alt="bt-bilhete" title="Mensagem aqui!"/></a> 
-<a href="https://bit.ly/adts_beo" target="_blank"><img src="https://i.postimg.cc/8CngrJ7Y/bt-BO.png" hspace="50"  alt="bt-BO"/></a> 
-<a href="https://bit.ly/adts_cpf" target="_blank"><img src="https://i.postimg.cc/bwghpFpp/bt-CPF.png" hspace="50"  alt="bt-CPF"/></a> 
-<a href="https://bit.ly/adts_formulario_mtp" target="_blank"><img src="https://i.postimg.cc/cHgy7xYL/bt-formulario-MTP.png" hspace="50"  alt="bt-formulario-MTP"/></a><br/><br/>
-<a href="https://sal.rfb.gov.br/PortalSalInternet/faces/pages/index.xhtml" target="_blank"><img src="https://i.postimg.cc/nzy80yYY/bt-guia-Recolhimento.png" hspace="50"  alt="bt-guia-Recolhimento"/></a> 
-<a href="https://bit.ly/adts_vercad" target="_blank"><img src="https://i.postimg.cc/przw7ssN/bt-meucad.png" hspace="50"  alt="bt-meucad"/></a> 
-<a href="https://passelivre.transportes.gov.br/spl/login.html" target="_blank"><img src="https://i.postimg.cc/jjjr5QSN/bt-passe-LIVRE.png" hspace="50"  alt="bt-passe-LIVRE"/></a> 
-<a href="https://bit.ly/adts_pdf" target="_blank"><img src="https://i.postimg.cc/QxpDndzB/bt-pdf.png" hspace="50"  alt="bt-pdf"/></a><br/><br/>
-<a href="https://bit.ly/adts_pje" target="_blank"><img src="https://i.postimg.cc/YCM7cwcd/bt-pje.png" hspace="50"  alt="bt-pje"/></a> 
-<a href="https://servicos.receita.fazenda.gov.br/Servicos/saga/agendamento/" target="_blank"><img src="https://i.postimg.cc/sfWCv2sn/bt-receita.png" hspace="50"  alt="bt-receita"/></a> 
-<a href="https://bit.ly/adts_eleitor" target="_blank"><img src="https://i.postimg.cc/WpqTgn6w/bt-titulo.png" hspace="50"  alt="bt-titulo"/></a> 
-<a href="https://bit.ly/adts_webcam" target="_blank"><img src="https://i.postimg.cc/Yqck3WdK/bt-webcam.png" hspace="50"  alt="bt-webcam"/></a><br/><br/>
-<a href="https://alistamento.eb.mil.br/" target="_blank"><img src="https://i.postimg.cc/DzRx1Wd6/ALISTAMENTO-BT.png" hspace="50 alt="ALISTAMENTO-BT"/></a> 
-<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="https://i.postimg.cc/k5290q6r/bt-gmail.png" hspace="50"  alt="bt-gmail"/></a> 
-<a href="https://www.gov.br/pt-br" target="_blank"><img src="https://i.postimg.cc/KjDyPYVT/bt-gov.png" hspace="50"  alt="bt-gov"/></a> 
-<a href="https://meu.inss.gov.br/#/login" target="_blank"><img src="https://i.postimg.cc/wTFp37D8/bt-inss.jpg" hspace="50" alt="bt-inss"/></a><br/><br/>
-<a href="https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho" target="_blank"><img src="https://i.postimg.cc/fb1ZZpmV/ctps.png" hspace="50"   alt="ctps"/></a> 
-<a href="https://web.trf3.jus.br/peticoesjef/Atermacoes/" target="_blank"><img src="https://i.postimg.cc/vHGyQWgt/jef.png" hspace="50"  alt="jef"/></a> 
-<a href="https://www.poupatempo.sp.gov.br/wps/portal/poupatempoTaOn/homeTaOn/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_TxcjDxM3A38DTycXA0Cw4w9DYIsg4wNfAz1wwkpiAJKG-AAjgZA_VFgJbhMCDWDKsBjRkFuhEGmo6IiAFl6Ge8!/dz/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank"><img src="https://i.postimg.cc/FRcvKpVD/poupat.png" hspace="50"  alt="poupat"/></a> 
-<a href="https://bit.ly/adts_top" target="_blank"><img src="https://i.postimg.cc/RhBBJtP9/top.png" hspace="50"  alt="top"/></a><br/><br/>
-<a href="https://atende.ts.sp.gov.br/" target="_blank"><img src="https://i.postimg.cc/59LRqmrC/ATENDE-BT.png" hspace="50 alt="ATENDE-BT"/></a> 
-<a href="https://login.caixa.gov.br/auth/realms/internet/protocol/openid-connect/auth?response_type=code&client_id=cli-web-dun&redirect_uri=https%3A%2F%2Fwww.cadastrounico.caixa.gov.br%2Fcadun%2F&state=f89f2de4-f828-4304-a63a-ec2cd20a0f6d&login=true&scope=openid
-" target="_blank"><img src="https://i.postimg.cc/wjffT41S/CAD-BT.png" hspace="50 alt="CAD-BT"/></a> 
-<a href="https://drive.google.com/drive/my-drive" target="_blank"><img src="https://i.postimg.cc/L86QSF8t/DRIVE-BT.png" hspace="50 alt="DRIVE-BT"/></a>
-<a href="https://bit.ly/adts_cartaut" target="_blank"><img src="https://i.postimg.cc/Vs3G2hTn/cart-autbt.png" hspace="50 alt="cartaut-BT"/></a><br/><br/>
-<a href="http://suporte.ts.sp.gov.br/front/login.php" target="_blank"><img src="https://i.postimg.cc/9F2Nx73N/GLPI-BT.png" hspace="50 alt="GLPI-BT"/></a> 
-<a href="https://outlook.live.com/owa/" target="_blank"><img src="https://i.postimg.cc/Xvr2ZKFX/HOTMAIL-BT.png" hspace="50 alt="HOTMAIL-BT"/></a>
- <a href="https://ifractal.srv.br/ifPonto/prefeiturataboaodaserra/login.php" target="_blank"><img src="https://i.postimg.cc/15K7b3sR/IFRACTAL-BT.png" hspace="50 alt="IFRACTAL-BT"/></a> 
-<a href="http://www.taboaodaserra.sp.gov.br:2095/" target="_blank"><img src="https://i.postimg.cc/7h3tHxzV/WEBMAIL-BT.png" hspace="50 alt="WEBMAIL-BT"/></a><br/><br/>
-
-
-                                                                                                                                                       
-
-
-
-
-
-
+<body onload="exec()">
+    <header id="header" class="header">
+        <h1>Acesso Digital</h1> 
+        <div id="search" class="search">
+            <input id="searchbar"  name="searchbar" type="text" placeholder="Procurar..." name="search">
+        </div> 
+    </header>
+    <main>
+        <div id="btns" class="container">
+                <div class="loader"></div> 
+        </div>
+    </main>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
+<script>
+    async function getDataSheets(){
+        const apiKey = 'AIzaSyAOVnr9dYodLSoVhZBSUKOcx4oWmqmgTTg'; // Replace with your API key
+        const spreadsheetId = '1fNCaKBLnJLxF7wWLX8C9vab-K3e7ghxSA4u4ygfi634'; // Replace with your spreadsheet ID
+        const sheetName = 'acesso'; // Replace with your sheet name
+
+        try{
+            const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${sheetName}?key=${apiKey}`);
+            const data = await response.json();
+            console.log(data.values);
+            
+            if(!response.ok){
+                throw new Error('Erro na requisição para o Google Sheets');
+            }   
+            
+            return data.values;
+        }catch(error){
+            console.error('Erro no Google Drive', error);
+            throw error;
+        }
+    }
+
+    let x = 0
+    function addBtn(dados) { 
+        if( !dados[0]){return;}; 
+        
+        const btn_a = document.createElement("a");
+        btn_a.innerHTML =
+            `
+        
+        <a id="" href="${dados[0]}" target="_blank" title="${dados[4]}" value="${0}">
+        <img class="btn-img" src="${dados[3]}"> 
+        </a>
+        
+        `
+        x+=1;
+        const parentNode = document.getElementById("btns");
+        parentNode.appendChild(btn_a);
+        
+        //console.log(x);
+
+    }
+
+
+    async function exec(){    
+        var loadingScreen = document.querySelector(".loader");
+        
+
+        try{
+            //console.log("1");
+            const data = await getDataSheets()
+            if(data){
+                loadingScreen.style.display = 'none';
+                data.forEach(addBtn);
+            }
+        }catch(error){
+            console.log(error)
+        }    
+    }
+    
+
+    function createIdFromLink(url) {
+    if (!url || typeof url !== 'string') {
+        return ''; // Retorna uma string vazia para entradas inválidas
+    }
+    url = url.replace(/[^\p{L}\p{N}-]/gu, '').toLowerCase();
+    url = url.replace(/-/g, '');
+    return url;
+}
+
+</script>
